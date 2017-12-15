@@ -34,8 +34,8 @@ repositories {
 
 dependencies {
     deobfCompile "mezz.jei:jei_${mc_version}:${jei_version}"
-    deobfCompile "mcp.mobius.waila:Hwyla:${hwyla_version}"
-    deobfCompile "info.amerifrance.guideapi:Guide-API:${guideapi_version}"
+    deobfCompile "mcp.mobius.waila:Hwyla:${waila_version}_${mc_version}"
+    deobfCompile "info.amerifrance.guideapi:Guide-API:${mc_version}-${guideapi_version}"
 }
 
 minecraft {
