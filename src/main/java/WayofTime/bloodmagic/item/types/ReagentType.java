@@ -29,8 +29,7 @@ public enum ReagentType implements ISubItem {
     REAGENT_CLAW,
     REAGENT_BOUNCE,
     REAGENT_FROST,
-    REAGENT_HOLDING,
-    ;
+    REAGENT_HOLDING;
 
     @Nonnull
     @Override
