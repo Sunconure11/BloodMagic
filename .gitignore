@@ -1,39 +1,103 @@
-# General use .gitignore for Minecraft modding.
-
-# Directories
-/.gradle/
-/build/
-/eclipse
-/run/
-/out/
-/asm/
+#ant stuff
 /bin/
-/build/
-/config/
-crash-reports/
-/.idea/
-/.metadata/
-/libs/
-/saves/
-/resourcepacks/
-/logs/
-/mods/
-/screenshots/
-/classes/
-
-# File Extensions
-*.psd
-*.iml
-*.ipr
-*.iws
-*.classpath
-*.project
-
-# Specific files
+/download/
+#Remove OS generated garbage
+*/.DS_Store
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
 Thumbs.db
-usernamecache.json
+#gradle stuff
+/.gradle
+/build/
+/run*/
+/ui/
+gradle-app.setting
+#IDEA files from Gradle
+.idea/
+/*.iml
+/*.ipr
+/*.iws
+#Vim backups
+*~
+#manual version override
+version.properties
+#eclipse stuffs
+/.classpath
+/.project
+/.settings/
+/eclipse/
+/minecraft/
+/debug/
+/.metadata/
+/config/
+/logs/
 options.txt
-BloodMagic_Client.launch
-BloodMagic_Server.launch
+/saves/
+/out
+/tmp
+.iws
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+*.iml
+/classes/
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
 
-usercache.json
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+-
